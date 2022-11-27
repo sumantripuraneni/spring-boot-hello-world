@@ -22,7 +22,6 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-  dependsOn: Hello
 
 - bash: echo "Build Starting"
   displayName: Print message 
